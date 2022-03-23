@@ -63,18 +63,18 @@ describe('saludo(idioma)', function() {
   });
 });
 
-describe('colors(color)', function() {
-  it('should return \'This is {color}\'', function() {
-    expect(colors("blue")).toBe('This is blue');
-    expect(colors("red")).toBe('This is red');
-    expect(colors("green")).toBe('This is green');
-    expect(colors("orange")).toBe('This is orange');
-  });
-  it('should return \'Color not found\' if there is no argument or the argument is none of the expected ones', function() {
-    expect(colors()).toBe('Color not found');
-    expect(colors("pink")).toBe('Color not found');
-  });
-});
+// describe('colors(color)', function() {
+//   it('should return \'This is {color}\'', function() {
+//     expect(colors("blue")).toBe('This is blue');
+//     expect(colors("red")).toBe('This is red');
+//     expect(colors("green")).toBe('This is green');
+//     expect(colors("orange")).toBe('This is orange');
+//   });
+//   it('should return \'Color not found\' if there is no argument or the argument is none of the expected ones', function() {
+//     expect(colors()).toBe('Color not found');
+//     expect(colors("pink")).toBe('Color not found');
+//   });
+// });
 
 describe('esDiezOCinco(num)', function() {
   it('should return true if num is 10 or 5', function() {
